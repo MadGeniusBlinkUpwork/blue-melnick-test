@@ -1,0 +1,54 @@
+body {
+  background: #20262E;
+  padding: 20px;
+  font-family: Helvetica;
+}
+
+button {
+  background: whitesmoke;
+  border-radius: 5px;
+  padding: 10px, 10px;
+  margin: 0 5px;
+  height: 30px;
+}
+
+#app {
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  height: 80vh;
+  transition: all 0.2s;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  width: 300px;
+  background: lightblue;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.waterLevelCounter {
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+  flex: 1;
+  justify-content: flex;
+  padding: 20px;
+}
+
+.waterLevelBlock {
+  background: #3c40c6;
+  width: 70px;
+  margin: 1px 0;
+  max-height: 40px;
+  height: 100%;
+}
